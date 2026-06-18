@@ -6,4 +6,4 @@ Simple script to visualize expression of genes of interest in clytia single cell
 3. Use visualizations.py to visualize expression of genes of interest on umaps and violin plots. Note that the h5ad files need to be named "medusa.h5ad" and "planula.h5ad".
 
 Example call to visualizations.py:
-./visualizations.py medusa example_genes.txt
+./visualizations.py --dataset medusa example_genes.txt
