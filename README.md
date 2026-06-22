@@ -7,3 +7,7 @@ Simple script to visualize expression of genes of interest in clytia single cell
 
 Example call to visualizations.py:
 ./visualizations.py --dataset medusa example_genes.txt
+
+
+### Interactive shiny app
+Use pyshiny/app.py to view the expression of any gene in the clytia single cell data on a UMAP and violin plot. Need to install pyshiny and use shiny run while in the pyshiny directory. 
